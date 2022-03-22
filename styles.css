@@ -1,0 +1,511 @@
+/* css styling on descktop devices--------------*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 2.5vh;
+  color: #000205;
+  margin-bottom: 0.5%;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  color: #111;
+  font-weight: 600;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 5.2vw;
+}
+h1 .sm {
+  font-size: 0.5em;
+}
+
+h2 {
+  font-size: 2.5vw;
+  text-transform: uppercase;
+}
+
+h2,
+#home-p,
+#foreshore-p {
+  color: #fff;
+}
+
+button {
+  font-family: "Montserrat", sans-serif;
+  border-radius: 200px;
+  background: #fff;
+  border: none;
+  padding: 0.5em 1.5em;
+  font-weight: 600;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  font-size: 1em;
+}
+
+button.is-big {
+  font-size: 1.2em;
+}
+
+button .fa-angle-right,
+button .fa-angle-left,
+button .fa-angle-down {
+  color: #1be0f1;
+  margin-left: 0.5em;
+}
+
+/* fullpage hacks !*/
+/* nav */
+#fp-nav ul li .fp-tooltip {
+  color: #333;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* slides nav */
+.fp-slidesNav {
+  left: 17% !important;
+  bottom: 15% !important;
+}
+/* section */
+.section {
+  height: 100vh;
+}
+
+.section .fp-tableCell {
+  padding: 2em;
+}
+
+/* home section--------------------*/
+
+/* magpie aware logo------------*/
+#logo {
+  position: absolute;
+  left: 7%;
+  top: 15%;
+  color: #fff;
+  width: 45%;
+}
+
+.section-home .content {
+  width: 38%;
+  left: 7%;
+  position: absolute;
+  top: 50%;
+}
+
+/*--flying magpie masacot--*/
+#camera {
+  position: absolute;
+  right: 12%;
+  top: 20%;
+  width: 45%;
+}
+
+.section-home .bg {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, #5d98ca 30%, #d9e7ff 100%);
+}
+
+/* the big three sfety tips-------------------*/
+
+.section-big-three {
+  text-align: center;
+}
+
+.section-big-three .fp-tableCell {
+  vertical-align: top;
+}
+
+.big-three-cols {
+  display: flex;
+  align-items: center;
+  padding: 0.4%;
+  margin-bottom: 0.5em;
+}
+
+.bt-col {
+  text-align: center;
+  flex-grow: 1;
+  margin: 2%;
+  width: 33.3%;
+}
+
+.bt-col .bt-col-img {
+  width: 40%;
+  height: 160px;
+  object-fit: contain;
+  margin-bottom: 1.5em;
+}
+
+.section-big-three .content {
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: 1.2em;
+}
+
+.section-big-three .content p {
+  margin-bottom: 1.8em;
+}
+
+/* magpie behaviour section --------------------------*/
+
+.section-aperture {
+  background: linear-gradient(90deg, #e49d29 0%, #ecfefd 100%);
+}
+
+/* right-horizontal picture slide ----------*/
+
+.section-aperture .slide {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.section-aperture .slide .content {
+  padding-right: 30%;
+  position: relative;
+}
+
+/* flying-magpie slide 1 imag */
+
+.slide-aperture-1 .slide-img {
+  width: 450px;
+  height: 300px;
+  position: absolute;
+  right: -10%;
+  top: 10%;
+}
+
+/* adult and juvenille magpie slide 2 and 3 imag */
+
+.slide-aperture-2 .slide-img {
+  width: 300px;
+  position: absolute;
+  right: -7%;
+  top: -36%;
+}
+
+.slide-aperture-3 .slide-img {
+  width: 500px;
+  position: absolute;
+  right: -7%;
+  top: -36%;
+}
+
+/* breeding locations section */
+
+/* shoelace hacks */
+
+:root {
+  /* Changes the primary theme color to purple using primitives */
+  --sl-color-primary-hue: 30;
+  --sl-color-primary-saturation: 90%;
+}
+
+button .fa-angle-right,
+button .fa-angle-left {
+  color: #1be0f1;
+  margin-left: 0.5em;
+}
+
+/* pill */
+.pill {
+  padding: 0.2em 0.7em;
+  border-radius: 200px;
+  border: 2px solid rgb(20, 2, 2);
+  color: rgb(14, 1, 1);
+  font-size: 0.8em;
+}
+
+/* colour awareness aesthetics, yellow tone consistency */
+.h1-pill {
+  color: #e49d29;
+}
+
+/* breeding locations section ---------------------------*/
+.section-iso {
+  padding: 2em;
+  height: 100vw;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.section-iso h1,
+.section-iso h2,
+.section-iso h3 {
+  color: rgb(22, 1, 1);
+}
+
+.section-iso .content {
+  position: absolute;
+  left: 5%;
+  width: 30%;
+  color: rgb(15, 1, 1);
+  text-align: left;
+  top: 45%;
+}
+
+.section-iso .content.night {
+  opacity: 0;
+}
+
+/* perth streetview of park bg --------------------------*/
+.perth-bg {
+  background-size: cover !important;
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  top: -10%;
+  left: -10%;
+  z-index: -1;
+}
+
+/* street view park----------------*/
+.perth-bg.day {
+  background: url("../images/park-unsplash.jpg") center center no-repeat;
+}
+
+/* aerial-map foreshore view------------ */
+.perth-bg.night {
+  background: url("../images/foreshore-map.jpg") center center no-repeat;
+  opacity: 0;
+}
+
+/* camera back ----------------*/
+.camera-back {
+  position: relative;
+  width: 55%;
+  margin: 0 auto;
+}
+
+.camera-back .camera-body {
+  width: 100%;
+}
+
+.camera-back .camera-display {
+  position: absolute;
+  width: 46%;
+  left: 15%;
+  bottom: 16%;
+  height: 39%;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.camera-back .camera-display.night {
+  opacity: 0;
+}
+
+/* street to aerial-map view toggle / switch ------------------*/
+#night-toggle {
+  position: absolute;
+  top: 15%;
+  right: 10%;
+  --thumb-size: 35px;
+}
+
+/* increase text contrast on dark background -----------------------*/
+#night-toggle::part(label) {
+  color: #e49d29;
+}
+
+/* gender comparision ---------*/
+#dialog-noise-comparision {
+  text-align: center;
+}
+
+/* fix dialogue box components [could not fix male|female image to display properly]---------*/
+#dialog-noise-comparision::part {
+  --width: 40rem;
+  --body-spacing: var(--sl--spacing-large);
+  display: contents;
+}
+#dialog-noise-comparision .img {
+  width: 100%;
+}
+
+/* encounters section */
+.glider-contain .multiple {
+  background: #ca7979;
+  margin-top: 10px;
+  font-family: "Fira Sans display", sans-serif;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+figure {
+  background: #fff !important;
+  display: block;
+  margin: 1.5em;
+  padding: 0.7em;
+}
+
+blockquote {
+  padding: 1.5em;
+  font-size: 2em;
+  font-style: italic;
+  text-align: center;
+  border: 2px;
+  border-color: #000;
+}
+
+figcaption {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgb(56, 52, 52);
+}
+
+.glider-next,
+.glider-prev {
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 3%;
+  padding-right: 3%;
+  margin-bottom: 0%;
+}
+
+/* MoveTo scroll interaction trigger button (Back to top)*/
+
+.js-trigger {
+  color: #5d98ca;
+  margin-left: 65em;
+
+  font-family: "Montserrat", sans-serif;
+  border-radius: 200px;
+  background: #fff;
+  border: none;
+  padding: 1.5em 1.5em;
+  margin: 5em;
+  font-weight: 600;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.8);
+  font-size: 1em;
+
+  transition: background 0.3s ease-in, transform 0.2s 0.1s ease-in-out,
+    border-radius 0.3s ease-in;
+}
+
+.js-trigger:hover {
+  transform: scale(1.3);
+  background: linear-gradient(90deg, #5d98ca 30%, #d9e7ff 100%);
+  color: #353535;
+  border-radius: 20px;
+}
+
+/* feature sound button on home page*/
+
+#sound-btn {
+  padding-left: 5%;
+  font-size: 40px;
+}
+
+/*svg keyframes for vectors in contact section------------*/
+#birds {
+  animation: bounce 1.2s ease-in-out infinite;
+  transform-origin: center;
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scaleY(0.9) translate(-1px);
+  }
+  50% {
+    transform: scaleY(1.3) translateY(-2px);
+  }
+  100% {
+    transform: scaleY(1) translateY(0);
+  }
+}
+
+.contact {
+  background: linear-gradient(90deg, #e49d29 0%, #ecfefd 100%);
+  text-align: center;
+  padding-top: 1vh;
+}
+
+.glider-contain {
+  text-align: center;
+}
+
+/* gsap fullpage.js responsive to mobile screen width
+
+  /* [0-767px] specific responsiveness for mobile screen devices------------*/
+
+@media screen and (max-width: 767px) {
+  .big-three-cols {
+    flex-wrap: wrap;
+  }
+
+  .bt-col {
+    width: 100%;
+  }
+  .bt-col .bt-col-img {
+    width: 100%;
+  }
+  /* flying-magpie slide 1 imag */
+
+  .slide-aperture-1 .slide-img {
+    width: 40%;
+
+    position: absolute;
+    right: -20%;
+    top: 3%;
+  }
+  /* adult and juvenille magpie slide 2 and 3 imag */
+
+  .slide-aperture-2 .slide-img {
+    width: 30%;
+    position: absolute;
+    right: -7%;
+    top: -20%;
+  }
+
+  .slide-aperture-3 .slide-img {
+    width: 35%;
+    position: absolute;
+    right: -7%;
+    top: -36%;
+  }
+
+  .camera-back {
+    position: absolute;
+    margin: 10% auto;
+    margin-right: 50%;
+    width: 40%;
+  }
+
+  .glider-contain {
+    flex-wrap: wrap;
+    font-size: 5%;
+  }
+
+  /* adjusting vertical nav text size-----*/
+
+  .fp-tooltip .fp-right {
+    font-size: 7px;
+  }
+  .glider {
+    width: 40%;
+    position: absolute;
+  }
+}

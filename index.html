@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!--google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700&display=swap" rel="stylesheet">
+  
+  <!--fontawsome -->
+  <script src="https://kit.fontawesome.com/09273455b3.js" crossorigin="anonymous"></script>
+  
+  <!--fullpage.js -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css" integrity="sha512-4rPgyv5iG0PZw8E+oRdfN/Gq+yilzt9rQ8Yci2jJ15rAyBmF0HBE4wFjBkoB72cxBeg63uobaj1UcNt/scV93w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!--shoelace js library-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.64/dist/themes/light.css">
+  
+  <!--MoveTo js library-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moveTo/1.8.2/moveTo.min.js" integrity="sha512-K8tGrJxPw5dbYRLSOdH+dZ9SVZwrtMffca3bBOe+IWAgl4SDi55bIR2IUnF+p+PzReEDeKgoIBHpuq7R9043GA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.64/dist/shoelace.js"></script>
+  <!--glider carousel-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glider-js/1.6.6/glider.min.css" integrity="sha512-YM6sLXVMZqkCspZoZeIPGXrhD9wxlxEF7MzniuvegURqrTGV2xTfqq1v9FJnczH+5OGFl5V78RgHZGaK34ylVg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Magpie Awareness</title>
+</head>
+
+<body>
+
+  <div id="fullpage">
+
+    <!--solid framework derived from Daniel Brouse unit work materials to implement A2-->
+
+    <!--home-->
+    <div class="section section-home">
+
+      <div class="bg"></div>
+      <img id="logo" src="images/svg-images/magpie-aware-icon.svg" alt="magpie aware logo">
+
+      <img src="images/svg-images/flying-magpie.svg" alt="flying magpie mascot" id="camera">
+
+      <div class="content">
+        <sl-tooltip div class="tooltip-sound" content="Click for Tune" placement="top-end" id="sound-tooltip">
+          <sl-icon-button name="volume-up" id="sound-btn"></sl-icon-button>
+        </sl-tooltip>
+        <h2>Understanding Magpie Behaviour to Stay Safe</h2>
+        <p id="home-p"> How to gain a sense of calm during springs' swooping season around Perths' foreshore </p>
+        <button class="jumpto-s2 is-big"> Start learning<i class="fas fa-angle-right"></i></button>
+      </div>
+      <div id="home-image"></div>
+    </div>
+
+    <!--The Big Three Safety Tips-->
+    <div class="section section-big-three">
+      <h1><span class="sm">Combat a Swooping Magpie</span><br>Three Big<span class="h1-pill"> Safety </span>Tips</h1>
+
+      <div class="big-three-cols">
+        <div class="bt-col">
+          <img src="images/svg-images/women-umbrella.svg" alt="Umbrella" class="bt-col-img">
+          <h3>Create a higher swooping point</h3>
+        </div>
+        <div class="bt-col">
+          <img src="images/svg-images/sunglasses-guy.svg" alt="Eye protection" class="bt-col-img">
+          <h3>Wear eye protection</h3>
+        </div>
+        <div class="bt-col">
+          <img src="images/svg-images/signage.svg" alt="Slow down message" class="bt-col-img">
+          <h3>Slowdown Approach or take alternative route</h3>
+        </div>
+      </div>
+
+      <div class="content">
+        <p>Cover you head with a hat or umbrella as a deterred target. Protect your eyes with sunglasses and your hands, those large beaks are very sharp and eye injuries have been previously recorded. Aviod appearing as a threat by slowing down or finding an alterative route on our site map.</p>
+        <button class="jumpto-s3">Scroll Down</button>
+      </div>
+    </div>
+
+    <!--Why Magpies Swoop Section-->
+    <div class="section section-aperture">
+
+      <div class="slide slide-aperture-1">
+        <h1>Why do Magpies Swoop?</h1>
+        <div class="content">
+          <h2>Territorial Species</h2>
+          <p>Australian magpies engage in cooperative breeding, where families assist in feeding and raising young. A long breeding season commences between September and finishes January.</p>
+          <img src="images/svg-images/flying-magpie.svg" alt="flying magpie" class="slide-img">
+          <button class="next-slide-btn">Next<i class="fas fa-angle-right"></i></button>
+        </div>
+      </div>
+
+      <div class="slide slide-aperture-2">
+        <h1>Adult Magpie</h1>
+        <div class="content">
+          <h2>Protective Daddy</h2>
+          <p>As a leader I use several defending displays to show my dominance by Swooping and loud Warning Calls</p>
+          <img src="images/magpie.png" alt="adult male magpie" class="slide-img">
+          <button class="prev-slide-btn"><i class="fas fa-angle-left"></i> Prev</button>
+          <button class="next-slide-btn">Next<i class="fas fa-angle-right"></i></button>
+        </div>
+      </div>
+
+      <div class="slide slide-aperture-3">
+        <h1>Baby Grey</h1>
+        <div class="content">
+          <h2>Juvenille Magpie</h2>
+          <img src="images/baby-magpie.png" alt="Baby magpie" class="slide-img">
+          <p>As a juvenile magpie I emit a continuous short and loud, high-pitched begging call for my parents attention.</p>
+          <button class="prev-slide-btn"><i class="fas fa-angle-left"></i> Prev</button>
+        </div>
+      </div>
+
+    </div>
+
+    <!--Breeding Locations section-->
+    <div class="section section-iso">
+
+      <div class="perth-bg day"></div>
+      <div class="perth-bg night"></div>
+      <h1>Breeding<span class="h1-pill"> Locations</span></h1>
+      <!--camera-->
+      <div class="camera-back">
+        <img src="images/camera-back.png" alt="camera back" class="camera-body">
+        <img src="images/park-unsplash.jpg" alt="Perth-park" class="camera-display day">
+        <img src="images/foreshore-map.jpg" alt="Perth-map" class="camera-display night">
+      </div>
+      <!--Foreshore sightings street view-->
+      <div class="content day">
+        <h2>Foreshore<span class="pill">Perth</span></h2>
+        <p id="foreshore-p">Sightings of male and female magpies are found along the foreshore. Male appearance has pure white feathers on the back of the head and the female has white blending to grey feathers on the back of the head. Click switch on the top-rightside for a aerial map and gender comparision.</p>
+      </div>
+      <!--Aerial site-map view-->
+      <div class="content night">
+        <h2>Aerial breeding view<span class="pill">Spots</span></h2>
+        <p>Tagged locations are seen on the right. You can find nesting trees here. Please forwarded to us photographed sighting for updating locations. Check out what a magpie pair looks like.</p>
+
+        <sl-dialog label="Magpie Gender Comparison" id="dialog-noise-comparision" style="--width: 80vw">
+          <img src="images/gender-comparision.jpg" alt="gender comparision">
+        </sl-dialog>
+        <!--<sl-button slot="footer" variant="primary" id="dialog-noise-comparision-close">Close</sl-button>-->
+
+        <!--dialogue gender comparision btn-->
+        <button class="noise-comparision-open-btn">Gender Comparision</button>
+      </div>
+
+      <!--Site-map switch-->
+      <sl-tooltip div class="tooltip" content="Switch to Site-Map" placement="bottom-end" id="night-toggle-tooltip">
+        <sl-switch id="night-toggle">Map</sl-switch>
+      </sl-tooltip>
+    </div>
+
+    <!--<div class="section section-encounters statistics">-->
+
+    <div class="section glider-contain multiple">
+
+      <h1><span class="h1-pill">Encounters</span> with Magpies</h1>
+      <button class="glider-prev"><i class="fas fa-chevron-circle-left"></i></button>
+
+      <div class="glider">
+
+        <figure>
+          <blockquote><img src="carousel-images/dog-humphrey-muleba-Y6EIP03u_wY-unsplash.png" alt="Felicia" width="200">...eye contact (through sunglasses) is the key here"</blockquote>
+        </figure>
+        <figure>
+          <blockquote> "I listen to the Chirp of the magpie, they make a sound before they attack, the sound is very loud. Get off the bike and walk it"</blockquote>
+        </figure>
+        <figure>
+          <blockquote><img src="carousel-images/cyclist.png" alt="Cyclist" width="80">. "My suggestion is for cyclists mainly, if they wear a brimmed hat which I do when bushwalking"</blockquote>
+        </figure>
+         <figure>
+          <blockquote> "Apparently walkers are less likely to be attacked as we cyclists are being advised to walk our bikes through the danger area"</blockquote>
+        </figure>
+
+      </div>
+
+      <button class="glider-next"><i class="fas fa-chevron-circle-right"></i></button>
+    
+      <div id="dots" class="glider-dots"></div>
+    </div>
+
+    <!--contact footer section-->
+
+    <div class="section contact">
+
+      <svg width="267" height="97" viewBox="0 0 267 97" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g id="birds">
+          <path id="Vector_2" d="M22.4168 23.1301L40.676 13.8913C33.1481 8.05106 25.7345 14.1002 21.1757 19.5575C17.0369 11.5878 6.83882 14.0436 6.83882 14.0436L21.4665 38.3943C22.9219 32.8769 23.2515 27.5819 22.4168 23.1301Z" fill="#3F3D56" />
+
+          <path id="Vector_3" d="M156.552 19.0489L142.282 4.00609C140.371 15.3083 148.021 20.2014 154.129 22.2916C149.235 31.0213 155.021 40.852 155.021 40.852L169.236 12.0171C164.237 13.3453 159.836 15.7848 156.552 19.0489Z" fill="#3F3D56" />
+        </g>
+      </svg>
+      <h1> Contact Us</h1>
+      <p>email: magpieaware@gmail.com.au</p>
+
+      <button type="button" class="js-trigger" data-target="#target">Back To Top</button>
+
+    </div>
+  </div><!--fullpage div-->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js" integrity="sha512-gSf3NCgs6wWEdztl1e6vUqtRP884ONnCNzCpomdoQ0xXsk06lrxJsR7jX5yM/qAGkPGsps+4bLV5IEjhOZX+gg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/glider-js/1.6.6/glider.min.js" integrity="sha512-RidPlemZ+Xtdq62dXb81kYFycgFQJ71CKg+YbKw+deBWB0TLIqCraOn6k0CWDH2rGvE1a8ruqMB+4E4OLVJ7Dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moveTo/1.8.2/moveTo.min.js" integrity="sha512-K8tGrJxPw5dbYRLSOdH+dZ9SVZwrtMffca3bBOe+IWAgl4SDi55bIR2IUnF+p+PzReEDeKgoIBHpuq7R9043GA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
